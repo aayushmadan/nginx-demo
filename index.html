@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Nginx</title>
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+.container{
+    text-align:center;
+    padding:40px 60px;
+    background: rgba(255,255,255,0.08);
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+h1 span{
+    color:#00ffd5;
+}
+
+p{
+    font-size:18px;
+    margin-top:10px;
+    opacity:0.9;
+}
+
+.status{
+    margin-top:25px;
+    padding:12px 25px;
+    display:inline-block;
+    background:#00ffd5;
+    color:#000;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.footer{
+    margin-top:30px;
+    font-size:14px;
+    opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Welcome to <span>Nginx</span></h1>
+
+<p>Your web server is installed and running successfully.</p>
+
+<div class="status">
+🚀 Server is Live
+</div>
+
+<div class="footer">
+Powered by Nginx Web Server
+</div>
+
+</div>
+
+</body>
+</html>
